@@ -1,0 +1,136 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body{
+    font-family: "Times";
+}
+.heading{
+    display: flex;
+}
+.heading ul li {
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    display: inline;
+    border-bottom: 1px solid black;
+}
+ul {
+    margin-left: 800px;
+}
+li:hover{
+    background-color: rgb(89, 87, 87);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+}
+.container h1{
+    font-size: 220px;
+}
+.container p{
+    margin-top: 370px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.my-para{
+    width: 700px;
+    height: 200px;
+    font-size: 23px;
+}
+.side-nav {
+   margin-left: 400px;
+   width: 60px;
+}
+.connect{
+    border-bottom: 1px solid black;
+    width: 160px;
+    color: lightgray;
+}
+.content-my{
+    display: flex;
+    margin: 10px;
+}
+.main{
+    display: flex;
+}
+.box1{
+    border-right: 1px solid black;
+}
+span{
+    color: lightgray;
+    font-size: 20px;
+}
+.work{
+    display: flex;
+}
+.my-skill{
+      margin-left: 690px;
+      font-weight: bold;
+}
+.my-box{
+    padding: 15px;
+    margin: 15px;
+}
+.font{
+    font-size: 80px;
+}
+.my-box h4{
+    font-weight: 250;
+}
+.section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .content {
+    flex: 2;
+    width: 00px;
+  }
+  
+  .toggle {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+  }
+  
+  .toggle-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toggle-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+ .project h1{
+   font-size: 70px;
+   width: 950px;
+  }
+  .project button{
+    margin-left: 1200px;
+  }
+  .my-footer{
+   display: inline;
+  }
+
+.footer .foot{
+    margin-left: 20px;
+}
+
+ .my-nav-bar{
+    margin-left: 900px;
+}
+.skills{
+    background-image: url(images/hero-img.png);
+}

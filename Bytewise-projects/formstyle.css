@@ -1,0 +1,23 @@
+*{
+    margin: 5px;
+    padding: 2px;
+}
+form input[type="text"]
+{
+    width: 160px;
+    height: 25px;
+}
+form select{
+    width: 120px;
+    height: 100px;
+}
+form input[type="button"]
+{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(14, 110, 253);
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}

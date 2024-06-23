@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "system-ui";
+    background-color: #F9F9F9;
+    position: relative;
+}
+.my-img{
+    width: 170px;
+    height: 170px;
+}
+nav {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-style: normal;
+    width: 1210px;
+    text-align: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    float: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 400px;
+    gap: 100px;
+}
+ nav ul{
+    border-bottom: 2px solid black;
+}
+nav ul li{
+    border-right: 2px solid black;
+    padding-right: 30px;
+} 
+nav ul li:last-child{
+    border-right: none;
+}
+.content{
+    margin-left: 400px;
+    margin-top: 100px;
+    width: 280px;
+    
+}
+.content h1{
+    font-size: 50px;
+}
+.big{
+    font-size: 70px;
+}
+.content p{
+    margin-top: 10px;
+
+}
+
+.my-image-2{
+    width: 500px;
+    height: 500px;
+    float: right;
+    top: 0;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 200px;  
+}
+.tree-1{
+    margin-left: 30px;
+    width: 100px;
+    height: 200px;
+}
+.footer-img{
+    display: flex;
+}
+.tree-2{
+    width: 100px;
+    height: 200px;
+    margin-left: 850px;
+}
+.tree-3{
+    width: 100px;
+    height: 200px;
+    margin-left: 150px;
+}
