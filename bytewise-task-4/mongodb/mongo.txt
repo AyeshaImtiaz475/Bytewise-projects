@@ -1,0 +1,8 @@
+mongoDb: Document oriented database  -> Database is store in the form of JSON
+Created in 2007 by a company double click
+
+aggregation pipline , maps
+features:
+triggers
+serverless
+
