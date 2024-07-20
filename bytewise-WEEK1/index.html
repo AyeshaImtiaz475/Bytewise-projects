@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML Course(HTML Cheat sheet)</title>
+
+</head>
+ 
+<body>
+    <!-- HTML:It standard for hypertext markeup language.
+ It is not a programming language. 
+ It is a hypertext markeup language to create the web page.
+  -->
+ <!-- <tagname>Content</tagname> -->
+  <h1>heading 1</h1>
+  <h2>heading 2</h2>
+  <h3>heading 3</h3>
+  <h4>heading 4</h4>
+  <h5>heading 5</h5>
+  <h6>heading 6</h6>
+
+  <!-- Paragraph -->
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora nostrum mollitia voluptate ipsam eveniet sint iste, ut officia sed sunt sit! Atque, obcaecati voluptate delectus maxime provident molestiae laborum?</p>
+
+   <!-- Inline Elements: -Do not start a new line , -Take only the necessary width -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<em> Quaerat debitis commodi</em> velit iure dignissimos modi laborum quibusdam odit praesentium, ex <strong><i>eum officiis totam, hic molestias aspernatur</i></strong> <a href="http://google.com" target="_blank">incidunt tenetur illum? Neque quidem sapiente sed, itaque aperiam</a> consectetur iste dolor debitis placeat aliquam, cum dignissimos? Animi illo ut eligendi itaque? Nisi, deserunt!</p>
+    <hr>
+
+    <!-- Tag attributes 
+     key/value pairs = id = "someID" 
+     <tagname attribute=""> </tagname>-->
+
+     <!-- list -->
+      <!-- unorder list -->
+      <ul>
+        <li>list Item 1</li>
+        <li>list Item 2</li>
+        <li>list Item 3</li>
+        <li>list Item 4</li>
+        <li>list Item 5</li>
+      </ul>
+      <!-- order list -->
+      <ol>
+        <li>list Item 1</li>
+        <li>list Item 2</li>
+        <li>list Item 3</li>
+        <li>list Item 4</li>
+        <li>list Item 5</li>
+      </ol>
+     <hr>
+      <!-- table -->
+       <table border="1px solid black">
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ayesha Imtiaz</td>
+                <td>ayeshaimtiaz9999@gmail.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Sara Khan</td>
+                <td>Sarabutt199@gmail.com</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Laiba Riaz</td>
+                <td>laibariaz789@gmail.com</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+       </table>
+
+       <br>
+       <br>
+       <hr>
+
+       <!-- form -->
+        <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="Your first name here!">
+        </div>
+        <br>
+         <div>
+            <label>Last Name</label>
+         <input type="text" name="lastName">
+         </div>
+         <br>
+         <div>
+            <label>Email</label>
+            <input type="text" name="email">
+         </div>
+         <br>
+         <div>
+            <label>Message</label>
+         <textarea name="message"></textarea>
+         </div>
+         <br>
+         <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select>
+         </div>
+         <br>
+         <div>
+            <label>Age:</label>
+            <input type="text" name="age" value="30" >
+         </div>
+         <br>
+         <div>
+            <labeL>Birthday</label>
+            <input type="date" name="birthday">
+         </div>
+         <br>
+         <input type="submit" name="submit" value="submit">
+        </form>
+        <hr>
+
+        <!-- button -->
+         <button>Click here!</button><br>
+         <button>Apply</button>
+         <br>
+         <hr>
+
+         <!-- img -->
+        <a href="http://google.com">
+            <img src="images.jpeg" alt="my sample img">
+        </a>
+
+        <!-- Quotations -->
+         <blockquote cite="http://traversymedia.com">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste doloremque assumenda animi, pariatur qui magnam repellat, tenetur architecto labore ut ducimus suscipit corporis quod vitae! Veniam vel omnis molestiae itaque.
+         </blockquote>
+
+         <p>
+            The <abbr title="Wordl Wide Web">
+                WWW is awesome
+            </abbr>
+         </p>
+
+         <p><cite>HTML Crash course </cite>by Brad Traversy</p>
+          
+
+         <hr>
+         <!-- html semantic tag 
+          header
+          footer
+          aside
+          main
+          article
+          nav
+          section
+          details-->
+
+
+</body>
+</html>
