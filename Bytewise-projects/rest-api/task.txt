@@ -1,0 +1,15 @@
+REST API --> JSON DATA WAS EXPORTED 
+
+tasks
+GET/users - list all the users 
+GET /users/1 - get the user with id 1
+GET /users/2 - get the user with id 2
+
+POST / users - Create a new user
+PATCH /user/id - Edit the user with ID 1
+
+dynamic path parameter
+GET /api/users/:id
+id-> varivale 
+
+DELETE/ users/1 - delete the user with id 1 

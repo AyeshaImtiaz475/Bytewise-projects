@@ -1,0 +1,26 @@
+RestFull api-- Rules -> Use for server and client request/response
+1. It is the standdards and good practices which we had to followed for scaleable website.
+2. It work on server and client architecture (Which means server and client are two different 
+entity and both of them should not be depended on each-other).
+
+3. We send Html--SSR (Server side render) to get request. Blog post
+We send the raw data in the form of Json key value. Now the server browser and render the information on 
+the screen where there is no dependence due to clinet-server architecture.
+
+4. When to use the HTML doc and Json
+If you know your client is your browser then you had to send the HTML because it is fast in processing 
+but if you had the cross platform then send the JSON.
+
+5. Always respect all HTML method (get, post, delete, patch, put)
+Get/user --- user data would be read and return data 
+Post/user -- handle new user creation
+Patch/user -- update the user 
+
+Client-Browser HTML
+Respect HTTP method
+
+How to send the response in JSON and HTML 
+jSON Response ---> RES.jSON()
+HTML Render ---> res.send()
+
+
